@@ -14,7 +14,7 @@
       <nav class="flex items-center justify-between py-4 px-5 bg-gray-200">
         <div class="navbar-brand">
           <h1>
-            <a href="#" class="font-bold text-lg text-gray-700"
+            <a href="#" class="font-bold text-lg text-gray-600"
               >John Wick Codex</a
             >
           </h1>
@@ -36,25 +36,47 @@
         <a href="#" class="btn-primary font-semibold text-red-600 mx-2">Sign Up</a>
       </div>
 
-      <header class="text-center px-5">
+      <header class="text-center px-10">
         <h2 class="font-bold text-gray-700 text-6xl">John Wick</h2>
-        <h3 class="font-semibold text-gray-500 text-3xl">Codex</h3>  
+        <h3 class="font-semibold text-gray-500 text-3xl uppercase">Codex</h3>  
       </header>
 
-      <div class="py-5 px-5">
-        <h4 class="font-semibold text-center text-xl mb-2">Characters</h4>
-        <hr class="mx-auto w-1/2" />
+      <div class="py-5 px-10">
 
-        <div class="cards mt-4">
+        <h4 class="font-semibold text-xl mb-2 uppercase">Characters</h4>
+        <hr class="w-1/5" />
+
+        <div class="cards mt-4 px-10 grid gap-5">
           <!-- cards go here -->
+
           <div class="card overflow-hidden">
-            <img src="#" alt="john-wick" />
+            <img src="./images/characters/john_wick.jpg" alt="john-wick" class="w-full h-56 object-cover"/>
             <div class="card-text p-3">
               <span class="text-lg font-bold text-gray-500">John Wick</span>
-              <p class="text-sm">Sometimes referred to as the Boogeyman...</p>
+              <p class="text-sm">Sometimes referred to as the Boogeyman is...</p>
               <a href="#" class="text-sm text-red-500">Read more</a>
             </div>
           </div>
+
+          <div class="card overflow-hidden">
+            <img src="./images/characters/zero.jpg" alt="zero" class="w-full h-56 object-cover"/>
+            <div class="card-text p-3">
+              <span class="text-lg font-bold text-gray-500">Zero</span>
+              <p class="text-sm">Leader of a ninja-like assassin group that...</p>
+              <a href="#" class="text-sm text-red-500">Read more</a>
+            </div>
+          </div>
+
+          <div class="card overflow-hidden">
+            <img src="./images/characters/cassian.jpg" alt="cassian" class="w-full h-56 object-cover"/>
+            <div class="card-text p-3">
+              <span class="text-lg font-bold text-gray-500">Cassian</span>
+              <p class="text-sm">A close assassin to John he...</p>
+              <a href="#" class="text-sm text-red-500">Read more</a>
+            </div>
+          </div>
+
+          
         </div>
       </div>
     </main>
