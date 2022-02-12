@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Wick Codex</title>
+    <title>John Wick Codex | The Unofficial John Wick Guide</title>
 
     <link rel="stylesheet" href="./css/main.scss" />
   </head>
   <body class="text-gray-400">
     <div class="">
       <!-- content wrapper -->
+      <!-- this is the navigation -->
       <nav class="flex items-center justify-between py-4 px-5 bg-gray-200">
         <div class="navbar-brand">
           <h1>
@@ -21,7 +22,9 @@
         </div>
         <div class="nav-links">
           <ul class="nav-items flex text-gray-500">
-            <li class="nav-item text-sm font-semibold mx-1"><a href="#">Home</a></li>
+            <li class="nav-item text-sm font-semibold mx-1">
+              <a href="#">Home</a>
+            </li>
             <li class="nav-item text-sm mx-1"><a href="#">About</a></li>
             <li class="nav-item text-sm mx-1"><a href="#">Contact</a></li>
           </ul>
@@ -30,53 +33,143 @@
     </div>
     <!-- end div -->
 
-    <main>
-      <div class="text-center py-3">
-        <a href="#" class="btn-primary font-semibold text-red-600 mx-2">Login</a>
-        <a href="#" class="btn-primary font-semibold text-red-600 mx-2">Sign Up</a>
+    <main class="my-10">
+      <!-- this is the container for the login and sign up buttons -->
+      <div class="text-center my-3">
+        <a href="#" class="btn-primary font-semibold text-red-600 mx-2"
+          >Login</a
+        >
+        <a href="#" class="btn-primary font-semibold text-red-600 mx-2"
+          >Sign Up</a
+        >
       </div>
 
+      <!-- This is the main logo container -->
       <header class="text-center px-10">
         <h2 class="font-bold text-gray-700 text-6xl">John Wick</h2>
-        <h3 class="font-semibold text-gray-500 text-3xl uppercase">Codex</h3>  
+        <h3 class="font-semibold text-gray-500 text-3xl uppercase">Codex</h3>
       </header>
 
+      <!-- character cards container -->
       <div class="py-5 px-10">
-
         <h4 class="font-semibold text-xl mb-2 uppercase">Characters</h4>
         <hr class="w-1/5" />
 
-        <div class="cards mt-4 px-10 grid gap-5">
+        <div class="character-cards mt-4 px-10 grid gap-4 sm:grid-cols-3">
           <!-- cards go here -->
 
           <div class="card overflow-hidden">
-            <img src="./images/characters/john_wick.jpg" alt="john-wick" class="w-full h-56 object-cover"/>
+            <img
+              src="./images/characters/john_wick.jpg"
+              alt="john-wick"
+              class="w-full h-56 object-cover md:h-72"
+            />
             <div class="card-text p-3">
               <span class="text-lg font-bold text-gray-500">John Wick</span>
-              <p class="text-sm">Sometimes referred to as the Boogeyman is...</p>
+              <p class="text-sm">
+                Sometimes referred to as the Boogeyman is...
+              </p>
               <a href="#" class="text-sm text-red-500">Read more</a>
             </div>
           </div>
 
           <div class="card overflow-hidden">
-            <img src="./images/characters/zero.jpg" alt="zero" class="w-full h-56 object-cover"/>
+            <img
+              src="./images/characters/zero.jpg"
+              alt="zero"
+              class="w-full h-56 object-cover md:h-72"
+            />
             <div class="card-text p-3">
               <span class="text-lg font-bold text-gray-500">Zero</span>
-              <p class="text-sm">Leader of a ninja-like assassin group that...</p>
+              <p class="text-sm">
+                Leader of a ninja-like assassin group that...
+              </p>
               <a href="#" class="text-sm text-red-500">Read more</a>
             </div>
           </div>
 
           <div class="card overflow-hidden">
-            <img src="./images/characters/cassian.jpg" alt="cassian" class="w-full h-56 object-cover"/>
+            <img
+              src="./images/characters/cassian.jpg"
+              alt="cassian"
+              class="w-full h-56 object-cover md:h-72"
+            />
             <div class="card-text p-3">
               <span class="text-lg font-bold text-gray-500">Cassian</span>
               <p class="text-sm">A close assassin to John he...</p>
               <a href="#" class="text-sm text-red-500">Read more</a>
             </div>
           </div>
+        </div>
+        <!-- the load more button -->
+        <div class="my-7 text-center">
+          <a href="#" class="btn text-red-600 border-2 border-red-600"
+            >Load More</a
+          >
+        </div>
+      </div>
 
-          
+      <!-- other cards container -->
+      <div class="py-5 px-10">
+        <h4 class="font-semibold text-xl mb-2 uppercase">Added Lore</h4>
+        <hr class="w-1/5" />
+
+        <!-- cards go here -->
+        <div class="other-cards mt-4 px-10 grid gap-5">
+          <div class="card overflow-hidden">
+            <img
+              src="./images/others/continental.jpg"
+              alt="john-wick"
+              class="w-full h-56 object-cover"
+            />
+            <div class="card-text p-3">
+              <span class="text-lg font-bold text-gray-500"
+                >The Continental NYC</span
+              >
+              <p class="text-sm">
+                The main Continental Hotel in New York City ...
+              </p>
+              <a href="#" class="text-sm text-red-500">Read more</a>
+            </div>
+          </div>
+
+          <div class="card overflow-hidden">
+            <img
+              src="./images/others/blood-oath-marker.jfif"
+              alt="john-wick"
+              class="w-full h-56 object-cover"
+            />
+            <div class="card-text p-3">
+              <span class="text-lg font-bold text-gray-500"
+                >Blood Oath Marker</span
+              >
+              <p class="text-sm">
+                A symbol of contract that is used in the underground world ...
+              </p>
+              <a href="#" class="text-sm text-red-500">Read more</a>
+            </div>
+          </div>
+
+          <div class="card overflow-hidden">
+            <img
+              src="./images/others/gold-coin.jpg"
+              alt="john-wick"
+              class="w-full h-56 object-cover"
+            />
+            <div class="card-text p-3">
+              <span class="text-lg font-bold text-gray-500">Gold Coin</span>
+              <p class="text-sm">
+                The main currency used in John's universe ...
+              </p>
+              <a href="#" class="text-sm text-red-500">Read more</a>
+            </div>
+          </div>
+        </div>
+        <!-- the load more button -->
+        <div class="my-7 text-center">
+          <a href="#" class="btn text-red-600 border-2 border-red-600"
+            >Load More</a
+          >
         </div>
       </div>
     </main>
