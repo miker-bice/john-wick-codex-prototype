@@ -28,6 +28,7 @@ John Wick Hex.
 
 ## Roadmap
 
-- Fix for the navigation
+- Nake the website functional
+- Integrate with Django as the back-end
 
 
