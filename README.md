@@ -19,7 +19,7 @@ John Wick Hex.
 
 ## Tech Stack
 
-**Client:** HTML, CSS, TailwindCSS
+**Client:** HTML, CSS, Javascript, TailwindCSS
 
 **Bundler:** Parcel JS
 
@@ -28,7 +28,7 @@ John Wick Hex.
 
 ## Roadmap
 
-- Nake the website functional
+- Make the website functional
 - Integrate with Django as the back-end
 
 
